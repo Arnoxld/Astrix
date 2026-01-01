@@ -13,7 +13,7 @@
                    G E N E S I S
 
 
-> **A Linux distribution forged from scratch using the Yocto Project.**  
+> **A Linux distribution forged from scratch.**  
 > Minimal. Controlled. Evolvable.
 
 Astrix is not just another distro — it’s an **experiment in building Linux the right way**:  
@@ -25,7 +25,7 @@ starting small, understanding every layer, and scaling only when needed.
 
 ## 🧬 What is Astrix?
 
-**Astrix Linux** is a custom Linux distribution built using **Yocto Project (Poky)** with a focus on:
+**Astrix Linux** is a custom Linux distribution with a focus on:
 
 - ⚡ Minimalism
 - 🧠 Deep system understanding
@@ -52,12 +52,11 @@ Everything after this is optional.
 
 ## 🧰 Tech Stack
 
-- **Yocto Branch:** `kirkstone` (LTS)
 - **Architecture:** x86_64
 - **Machine:** `qemux86-64`
-- **Kernel:** linux-yocto
-- **Init System:** SysVinit
+- **Kernel:** linux-6.18.2
+- **Init System:** systemd
 - **C Library:** glibc
-- **Userland:** BusyBox (Genesis phase)
+- **Userland:** GNU coreutils
 
 ---
